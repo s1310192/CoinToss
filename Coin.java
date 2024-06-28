@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Coin{
     int times;
@@ -13,6 +14,12 @@ public class Coin{
     public void coinToss(){
         Random rand = new Random();
         int cnt = 0;
+	String name;
+	Scanner sc = new Scanner(System.in);
+
+	System.out.println("Who are you?");
+	name = sc.next();
+	System.out.println("Hello, "+name+"!");
         
         System.out.println("Tossing a coin");
 
