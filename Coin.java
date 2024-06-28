@@ -33,7 +33,7 @@ public class Coin{
             System.out.println("Round "+(i+1)+": "+coin);
         } 
         System.out.println("Heads: "+cnt+", Tails: "+(this.times-cnt));
-	if(cnt > this.times/2) System.out.println("You won!");
-	else System.out.println("You lose.");
+	if(cnt > this.times/2) System.out.println(name+" won!");
+	else System.out.println(name+" lose.");
     }
 }
